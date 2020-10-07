@@ -1,10 +1,13 @@
 import React from 'react';
 import Table from "./components/Table"
+import Wrapper from "./components/Wrapper";
 import './App.css';
 
 function App() {
   return (
-    <Table />
+    <Wrapper>
+      <Table />
+    </Wrapper>
   );
 }
 
