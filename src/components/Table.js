@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function Table(props) {
     return (
         <table class="table table-striped table-hover">
