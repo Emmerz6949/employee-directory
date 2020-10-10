@@ -34,16 +34,16 @@ class App extends Component {
 
   searchE = val => {
     return this.state.employees
-              .filter(e => e.name.first.includes(val)).map(employed => (
-                <Employee 
-                  name={{first: employed.name.first, last: employed.name.last}}
-                  picture={{medium: employed.picture.medium}}
-                  phone={employed.phone}
-                  email={employed.email}
-                  login={{username: employed.login.username}}
-                  key={employed.login.username}
-                />
-              ));
+      .filter(e => (e.name.first.includes(val) || e.name.last.includes(val) || e.email.includes(val))).map(employed => (
+        <Employee 
+          name={{first: employed.name.first, last: employed.name.last}}
+          picture={{medium: employed.picture.medium}}
+          phone={employed.phone}
+          email={employed.email}
+          login={{username: employed.login.username}}
+          key={employed.login.username}
+        />
+      ));
   }
 
   renderE = () => {
