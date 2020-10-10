@@ -9,7 +9,8 @@ import './App.css';
 class App extends Component {
   state = {
     search: "",
-    employees: []
+    employees: [],
+    sorted: false
   }
 
   componentDidMount() {
@@ -44,6 +45,22 @@ class App extends Component {
           key={employed.login.username}
         />
       ));
+  }
+
+  sortE = () => {
+    this.setState({ sorted: true });
+    console.log(this.sorted);
+    return this.state.employees
+      .sort((a, b) => (a.name.first > b.name.first) ? 1 : -1).map(employed => (
+        <Employee 
+          name={{first: employed.name.first, last: employed.name.last}}
+          picture={{medium: employed.picture.medium}}
+          phone={employed.phone}
+          email={employed.email}
+          login={{username: employed.login.username}}
+          key={employed.login.username}
+        />
+      ))
   }
 
   renderE = () => {
