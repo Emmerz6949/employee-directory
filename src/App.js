@@ -53,6 +53,12 @@ class App extends Component {
     this.sortE();
   }
 
+  handleClickDown = () => {
+    this.setState({ sorted: true });
+    
+    this.reverseSortE();
+  }
+
   sortE = () => {
     return this.state.employees
       .sort((a, b) => (a.name.first > b.name.first) ? 1 : -1).map(employed => (
@@ -107,6 +113,7 @@ class App extends Component {
         />
         <Table 
           handleClickUp={this.handleClickUp}
+          handleClickDown={this.handleClickDown}
         >
           {this.renderE()}
         </Table>
