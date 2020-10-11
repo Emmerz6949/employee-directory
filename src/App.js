@@ -67,6 +67,20 @@ class App extends Component {
       ))
   }
 
+  reverseSortE = () => {
+    return this.state.employees
+      .sort((a, b) => (a.name.first > b.name.first) ? 1 : -1).reverse().map(employed => (
+        <Employee 
+          name={{first: employed.name.first, last: employed.name.last}}
+          picture={{medium: employed.picture.medium}}
+          phone={employed.phone}
+          email={employed.email}
+          login={{username: employed.login.username}}
+          key={employed.login.username}
+        />
+      ))
+  }
+
   renderE = () => {
     if (this.state.search === "") {
       return this.state.employees.map(employed => (
