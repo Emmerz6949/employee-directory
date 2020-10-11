@@ -47,9 +47,13 @@ class App extends Component {
       ));
   }
 
-  sortE = () => {
+  handleClickUp = () => {
     this.setState({ sorted: true });
-    console.log(this.sorted);
+    
+    this.sortE();
+  }
+
+  sortE = () => {
     return this.state.employees
       .sort((a, b) => (a.name.first > b.name.first) ? 1 : -1).map(employed => (
         <Employee 
@@ -87,7 +91,9 @@ class App extends Component {
           search={this.state.search}
           handleInputChange={this.handleInputChange}
         />
-        <Table>
+        <Table 
+          handleClickUp={this.handleClickUp}
+        >
           {this.renderE()}
         </Table>
       </Wrapper>
