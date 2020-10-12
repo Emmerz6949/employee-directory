@@ -3,6 +3,7 @@ import Table from "./components/Table"
 import Wrapper from "./components/Wrapper";
 import Employee from "./components/Employee";
 import SearchForm from "./components/SearchForm";
+import Jumbotron from "./components/Jumbotron"
 import API from "./utils/API";
 import './App.css';
 
@@ -107,6 +108,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
+        <Jumbotron />
         <SearchForm
           search={this.state.search}
           handleInputChange={this.handleInputChange}
