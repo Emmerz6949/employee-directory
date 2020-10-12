@@ -9,7 +9,7 @@ function SearchForm(props) {
           value={props.search}
           name="search"
           type="text"
-          className="form-control"
+          className="form-control w-25 mx-auto"
           placeholder="Search for an Employee"
           id="search"
         />
