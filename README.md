@@ -1,68 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Employee Directory
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This repository was created so I could create an employee directory React application that allows users to sort the employees alphabetically and reverse alphabetically by first name via the up and down arrow heads beside the word "Name", and to filter the employess by first name, last name, or email via the search bar.
 
-### `npm start`
+You can use the commits to follow my journey.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![image](https://i.ibb.co/9ctH24g/Employee-Directory.png)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### How did I do it?
 
-### `npm run build`
+I used JavaScript, JSON, JSX, the React.js framework and its many default dependencies, and the following additional installed via npm Node.js packages: "axios", and "bootstrap" to write my code. I also used an installed via npm Node.js package called "gh-pages" to deploy the website.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If you wish to visit this website you can do so via this link: https://emmerz6949.github.io/employee-directory/ .
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+If you wish to fork this code for your own use, then make sure you have Node.js (https://nodejs.org/en/download/) installed. And after you've cloned or downloaded your forked repository use the command "npm install" in the terminal to install all the necessary packages (make sure your terminal is in the same directory as the package.json file). After that, if you have everything installed, you simply have to have your terminal in the same direcetory as mentioned in the previous sentence and use the command "npm start" to run it. It should automatically open up a new "localhost:3000" tab in your default browser to access the application when it's ready.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Usage
 
-## Learn More
+To use this employee directory React application click on the link in the "How did I do it?" section of this README.md. Once the website loads use the up and down arrow heads beside "Name"to sort the employees by alphabetical or reverse alphabetical order, or use the search bar to filter the employees by their first name, last name, or email address.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Credits
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+I used Node.js (https://nodejs.org/en/), React.js (https://reactjs.org/), the "axios" package (https://www.npmjs.com/package/axios), the "bootstrap" package (https://www.npmjs.com/package/bootstrap), and the "gh-pages" package (https://www.npmjs.com/package/gh-pages). 
