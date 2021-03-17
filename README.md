@@ -12,7 +12,7 @@ You can use the commits to follow my journey.
 
 ### How did I do it?
 
-I used JavaScript, JSON, JSX, the React.js framework and its many default dependencies, and the following additional installed via npm Node.js packages: "axios", and "bootstrap" to write my code. I also used an installed via npm Node.js package called "gh-pages" to deploy the website.
+I used the Random User Generator API, JavaScript, JSON, JSX, the React.js framework and its many default dependencies, and the following additional installed via npm Node.js packages: "axios", and "bootstrap" to write my code. I also used an installed via npm Node.js package called "gh-pages" to deploy the website.
 
 If you wish to visit this website you can do so via this link: https://emmerz6949.github.io/employee-directory/ .
 
@@ -32,3 +32,5 @@ To use this employee directory React application click on the link in the "How d
 ### Credits
 
 I used Node.js (https://nodejs.org/en/), React.js (https://reactjs.org/), the "axios" package (https://www.npmjs.com/package/axios), the "bootstrap" package (https://www.npmjs.com/package/bootstrap), and the "gh-pages" package (https://www.npmjs.com/package/gh-pages). 
+
+API Used: Random User Generator API (https://randomuser.me/).
